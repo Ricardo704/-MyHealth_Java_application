@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="418.0" spacing="10.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="565.0" prefWidth="418.0">
+         <children>
+            <Label layoutX="95.0" layoutY="139.0" prefHeight="17.0" prefWidth="64.0" text="Username" />
+            <Label layoutX="95.0" layoutY="194.0" prefHeight="23.0" prefWidth="64.0" text="Password" />
+            <Label layoutX="95.0" layoutY="259.0" prefHeight="15.0" prefWidth="64.0" text="Firstname" />
+            <Label layoutX="95.0" layoutY="319.0" text="Lastname" />
+            <TextField fx:id="username" layoutX="95.0" layoutY="164.0" maxWidth="250.0" prefHeight="26.0" prefWidth="228.0" />
+            <PasswordField fx:id="password" layoutX="95.0" layoutY="224.0" maxWidth="250.0" prefHeight="26.0" prefWidth="228.0" />
+            <TextField fx:id="firstname" layoutX="95.0" layoutY="284.0" prefHeight="26.0" prefWidth="228.0" />
+            <TextField fx:id="lastname" layoutX="95.0" layoutY="344.0" prefHeight="26.0" prefWidth="228.0" />
+            <Button fx:id="close" layoutX="249.0" layoutY="413.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="55.0" text="Back">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="createUser" layoutX="111.0" layoutY="413.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="96.0" text="Create user">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="status" alignment="CENTER" layoutX="78.0" layoutY="490.0" prefHeight="26.0" prefWidth="263.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="170.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/profile.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</VBox>

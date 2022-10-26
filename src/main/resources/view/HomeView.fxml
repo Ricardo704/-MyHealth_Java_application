@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="450.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <MenuBar fx:id="menu" prefHeight="25.0" prefWidth="513.0" VBox.vgrow="NEVER">
+      <menus>
+            <Menu fx:id="profile" mnemonicParsing="false" text="Profile">
+              <items>
+                <MenuItem fx:id="viewProfile" mnemonicParsing="false" text="View my profile" />
+                  <MenuItem fx:id="updateProfile" mnemonicParsing="false" text="Update my profile" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Record">
+              <items>
+                <MenuItem fx:id="viewRecord" mnemonicParsing="false" text="View my record" />
+                  <MenuItem fx:id="createRecord" mnemonicParsing="false" text="Create a new record" />
+                  <MenuItem fx:id="export" mnemonicParsing="false" text="Export records" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="About">
+              <items>
+                <MenuItem fx:id="about" mnemonicParsing="false" text="About MyHealth" />
+              </items>
+            </Menu>
+      </menus>
+    </MenuBar>
+      <Pane prefHeight="425.0" prefWidth="537.0">
+         <children>
+            <ImageView fitHeight="425.0" fitWidth="537.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/homebg.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="message" layoutX="173.0" layoutY="14.0" prefHeight="34.0" prefWidth="199.0" />
+            <Label fx:id="homeMessage" layoutX="162.0" layoutY="96.0" prefHeight="43.0" prefWidth="221.0">
+               <font>
+                  <Font name="Arial Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="logOut" layoutX="363.0" layoutY="345.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Log out">
+               <font>
+                  <Font name="Calibri Bold Italic" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+  </children>
+</VBox>
