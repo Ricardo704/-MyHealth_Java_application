@@ -26,4 +26,7 @@ Implemented in following functions:
 - Export records
 >- check if directory and file name set correctly
 
-# -MyHealth_Java_application
+##Screenshots
+| Login  | Sign Up
+|:-:|:-:|
+| ![Login](MyHealth_Screenshots/1.jpg) | ![Sign up](MyHealth_Screenshots/2.jpg) |
