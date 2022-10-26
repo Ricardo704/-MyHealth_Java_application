@@ -26,7 +26,19 @@ Implemented in following functions:
 - Export records
 >- check if directory and file name set correctly
 
-##Screenshots
+## Screenshots
 | Login  | Sign Up
 |:-:|:-:|
 | ![Login](MyHealth_Screenshots/1.jpg) | ![Sign up](MyHealth_Screenshots/2.jpg) |
+
+| Home  | Profile Update
+|:-:|:-:|
+| ![Home](MyHealth_Screenshots/3.jpg) | ![Edit profile](MyHealth_Screenshots/4.jpg) |
+
+| Record | Create Record
+|:-:|:-:|
+| ![Record](MyHealth_Screenshots/5.jpg) | ![Create Record](MyHealth_Screenshots/6.jpg) |
+
+| Export Record | About
+|:-:|:-:|
+| ![Export record](MyHealth_Screenshots/7.jpg) | ![About](MyHealth_Screenshots/8.jpg) |
